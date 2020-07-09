@@ -1,0 +1,44 @@
+Defender_Exclusions.cmd
+********************
+Version 1.2 du 18/06/2020 (Voir l'historique à la fin du fichier).
+
+
+DESCRIPTION :
+=============
+Defender_Exclusions.cmd est un utilitaire qui permet de rajouter ou de supprimer des exclusions de chemin,
+d'extension et de processus dans le programme de protection Windows Defender.
+
+Les exceptions sont enregistrées dans des fichiers .ini situés dans le sous dossier "CfgFiles".
+Le format des fichiers est tel que :
+
+	Path    = C:\Dossier1;C:\Dossier2    (Chemins des dossiers à exclure)
+	Ext     = *.tmp;*.bak;*.xxx             (Extensions de fichiers à exclure)
+	Process = Programme1.exe;Programme2.exe     (Noms des processus à exclure)
+
+
+UTILISATION de Defender_Exclusions.cmd :
+===========================
+Lancez simplement Defender_Exclusions.cmd et choisisez le fichier des exceptions à ajouter ou supprimer.
+
+
+
+LICENCE :
+=========
+Ce batch est diffusé sous licence GPL. Cela signifie que vous pouvez l’utiliser, le modifier ou
+le redistribuer comme bon vous semble, du moment que le copyright et la mention d’auteur restent tels quels.
+Lisez attentivement la licence GPL pour plus de détails (https://fr.wikipedia.org/wiki/Licence_publique_générale_GNU).
+
+
+
+HISTORIQUE :
+============
+Version 1.2 du 18/06/2020 :
+	- Modification du batch afin de sélectionner un fichier de configuration parmis plusieurs
+
+Version 1.1 du 14/08/2018 :
+	- Ajout de la lecture du fichier Exceptions.ini
+	- Contrôle de la version de Windows (Windows 8 mini)
+	- Contrôle du service WinDefend pour vérifier que Defender soit actif
+
+Version 1.0 du 30/04/2018 :
+	- Première version
