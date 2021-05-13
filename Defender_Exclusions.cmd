@@ -1,9 +1,11 @@
-:: Defender_Exclusions.cmd - Créer par Tlem
+:: Defender_Exclusions.cmd - Par Tlem33
 :: Defender_Exclusions permet de rajouter ou supprimer automatiquement une liste d'exclusions dans Microsoft Defender.
 :: Vous devez compléter le fichier modèle Exceptions.ini ou créer vos propres fichiers de configuration.
 ::
+:: Lire le fichier README.md pour plus d'informations.
+::
 :: Version 1.2 du 18/06/2020
-:: Lire le fichier LisezMoi.txt pour plus d'informations.
+:: https://github.com/Tlem33/Defender-Exclusions
 ::
 
 
