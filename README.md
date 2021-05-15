@@ -3,7 +3,7 @@
 Version 1.2 du 18/06/2020 - Par Tlem33
 https://github.com/Tlem33/Defender-Exclusions  
 
-***
+---
 
 ## DESCRIPTION :
 
@@ -17,25 +17,26 @@ Le format des fichiers est tel que :
                Ext     = *.tmp;*.bak;*.xxx             (Extensions de fichiers à exclure)  
                Process = Programme1.exe;Programme2.exe     (Noms des processus à exclure)  
 
+---
 
 ## UTILISATION de CePC+.cmd :
 
 Lancez simplement Defender_Exclusions.cmd et choisisez le fichier des exceptions à ajouter ou supprimer.    
 
+---
+
 ## SYSTEME(S) :
 
-Testé sous :
+     Windows 8  
+     Windows 10  
 
-        - Windows 8  
-        - Windows 10  
-
-***
+---
 
 ## LICENCE :
 
 Licence [MIT](https://fr.wikipedia.org/wiki/Licence_MIT)  
 
-Droit d'auteur (c) 2020 Tlem33  
+Droit d'auteur (c) 2021 Tlem33  
 
 Une autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel  
 et des fichiers de documentation associés (le «logiciel»), afin de traiter le logiciel sans restriction,  
@@ -70,3 +71,5 @@ INDIRECT AVEC L’UTILISATION DE CE LOGICIEL.
 18/06/2020 - Verion 1.2
 
 	    - Modification du batch afin de sélectionner un fichier de configuration parmis plusieurs
+
+---
